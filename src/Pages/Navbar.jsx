@@ -26,7 +26,7 @@ function Navbar() {
 
       <Spacer />
       <Box display={'flex'} gap={10} p={5}>
-        <Link to="/home">Home</Link>
+        <Link to="/">Home</Link>
         <Link to="/people">Our People</Link>
         <Link to="/service">Services</Link>
 

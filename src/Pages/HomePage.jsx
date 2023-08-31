@@ -22,7 +22,7 @@ const HomePage = () => {
           <Heading textAlign="left" size="xl" mb="4" color="black">
             The Best Walk starts Here
           </Heading>
-          <Text fontSize="lg" color="black" textAlign="left">
+          <Text fontSize="md" color="black" textAlign="left">
             The quick brown fox jumps over the lazy dog" is an English-language pangram sentence that contains all of the
             letters of the English alphabet. Owing to its existence, Chakra UI was created.
           </Text>
@@ -37,7 +37,7 @@ const HomePage = () => {
       </Flex>
 
       <Box bgColor={"rgb(246,246,247)"} height={"69vh"}    >
-        <Text width={"80vw"} margin={"auto"} p={5} >Paw Brigade is a full-service private dog-walking company providing adventures and
+        <Text width={"80vw"} margin={"auto"} p={5} fontSize="md"  >Paw Brigade is a full-service private dog-walking company providing adventures and
           loving care to all dogs in Singapore. From the largest to the smallest dogs, we provide the
           mental stimulation and exercise that your dog needs. .</Text>
 
@@ -50,25 +50,22 @@ const HomePage = () => {
         <Heading size={"lg"} mt={10}>How Its Works.</Heading>
 
 
-        <Flex gap={"50px"} width={"80vw"} margin={"50px auto"} >
+        <Flex gap={"50px"} width={"80vw"} margin={"50px auto 20px"} >
 
           <Box  >
             <Heading size={"md"}>Lorem ipsum dolor sit amet.</Heading>
-            <Text textAlign={"center"} mt={3}>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Fugiat blanditiis voluptas odit sunt. Eum velit,
-              tempore quasi sequi aliquid consequuntur.</Text>
+            <Text textAlign={"center"} mt={3} fontSize="md">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Fugiat blanditiis. </Text>
           </Box>
           <Box>
             <Heading size={"md"}>Lorem ipsum dolor sit amet.</Heading>
-            <Text textAlign={"center"} mt={3}>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Fugiat blanditiis voluptas odit sunt. Eum velit,
-              tempore quasi sequi aliquid consequuntur.</Text>
+            <Text textAlign={"center"} mt={3} fontSize="md">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Fugiat blanditiis.</Text>
           </Box>
           <Box>
             <Heading size={"md"}>Lorem ipsum dolor sit amet.</Heading>
-            <Text textAlign={"center"} mt={3}>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Fugiat blanditiis voluptas odit sunt. Eum velit,
-              tempore quasi sequi aliquid consequuntur.</Text>
+            <Text textAlign={"center"} mt={3} fontSize="md">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Fugiat blanditiis. </Text>
           </Box>
         </Flex>
 
@@ -89,7 +86,7 @@ const HomePage = () => {
           <Heading textAlign="left" size="xl" mb="4" color="black">
             Its Start With Our Meeting !
           </Heading>
-          <Text fontSize="lg" color="black" textAlign="left">
+          <Text fontSize="md" color="black" textAlign="left">
             The quick brown fox jumps over the lazy dog" is an English-language pangram sentence that contains all of the
             letters of the English alphabet. Owing to its existence, Chakra UI was created.
           </Text>
@@ -119,7 +116,7 @@ const HomePage = () => {
             Not Your Usual Dog Walk
           </Heading>
 
-          <Text fontSize="lg" color="black" textAlign={"left"}>
+          <Text fontSize="md" color="black" textAlign={"left"}>
             The quick brown fox jumps over the lazy dog" is an English-language pangram
             sentence that contains all of the letters of the English alphabet. Owing to
             its existence, Chakra UI was created.
